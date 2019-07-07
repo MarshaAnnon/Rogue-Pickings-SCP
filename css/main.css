@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "wisdom script";
+    src: url("../fonts/wisdom-script.otf") format("opentype");
+}
+
+/*****BASE STYLES*****/
+
+body {
+    font-family: montserrat;
+    color: #000000;
+}
+
+ /*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 100px;
+    background: #ffffff;
+}
+
+header h1 {
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 35px 0px 35px 0px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 47px 0px 30px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    padding-left: 20px;
+}
+
+/*****TOP SECTION*****/
+
+#top-section {
+    margin: 20px 0px 0px 20px;
+    width: 900px;
+    padding: 10px;
+}
+
+section .main-image {
+    border: 3px #77a466 solid;
+    border-style: solid hidden solid hidden;
+    clear: both;
+    height: 288px;
+    margin-left: 30px;
+    width: 1200px;
+}
+
+/*****MIDDLE SECTION*****/
+
+section #middle-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 30px;
+    padding: 20px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+section #middle-section p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-left: 30px;
+    padding: 0px 0px 20px 0px;
+    width: 1200px;
+}
+
+/*****BOTTOM SECTION*****/
+
+#bottom-section {
+    border: 1px #dedbdc solid;
+    border-style: solid hidden solid hidden;
+    height: 260px;
+    margin-left: 30px;
+    padding: 0px 0px 20px 0px;
+    width: 1180px;
+}
+
+/*****SPECIALS*****/
+
+#specials h3 {
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+#specials p {
+    color: #77a466;
+    font-size: 16px;
+    font-weight: normal;
+    width: 380px;
+}
+
+/*****REVIEWS*****/
+
+#reviews {
+    border-left: 1px #dedbdc solid;
+    border-right: 1px #dedbdc solid;
+    height: 280px;
+    padding: 0px 0px 0px 15px;
+    width: 350px;
+}
+
+#reviews h3 {
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 20px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+#reviews p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0px 10px 0px 15px;
+    width: 304px; 
+}
+
+#contact h3 {
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 20px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+#contact p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0px 10px 0px 20px;
+    width: 380px;
+}
+
+/*****FOOTER*****/
+
+footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+footer h2 {
+    clear: both;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer span {
+    color: #77a466;
+    font-family: "wisdom script", cursive;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+/*****MENU PAGE*****/
+/*****MAIN IMAGE*****/
+
+index.html/menu #top-section {
+    margin: 20px 0px 0px 20px;
+    width: 900px;
+    padding: 10px;
+}
+
+section .main-image {
+    border: 3px #77a466 solid;
+    border-style: solid hidden solid hidden;
+    clear: both;
+    height: 288px;
+    margin-left: 30px;
+    width: 1200px;
+}
+
+/*****MENU*****/
+
+h1 {
+    color: #77a466;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 30px;
+    padding: 20px 0px 10px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px 0px 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0px 0px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    clear: both;
+}
+/*****FOOTER*****/
+
+index.html/menu footer h2 {
+    clear: both;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 30px;
+    text-align: center;
+    clear: both;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 1100px;
+}
+
+footer span {
+    color: #77a466;
+    font-family: "wisdom script", cursive;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
