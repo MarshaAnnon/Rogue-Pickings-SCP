@@ -5,116 +5,62 @@
 <head>
 
     <meta charset="UTF-8">
-        
-        <title>Marsha's Rogue Pickings | Portfolio</title>
-
-        <link rel="stylesheet" href="css/normalize.css">
-        
-        <link rel="stylesheet" href="css/main.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" type="text/css">  
+    <title>Marsha's Rogue Pickings | Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" type="text/css">  
 
 </head>
     
 <body>
-    
-    <header>
-        
-        <div class="full-width">
-        
-            <div class="half-width">
-
-                <h1><span>rogue</span> pickings</h1>
-            
-            </div>
-                    
-            <div class="half-width">
-
-                <nav>
-                                
-                    <ul>
-                                    
-                        <li><a href="index.html">HOME</a></li>
-                                        
-                        <li><a href="menu/index.html">MENU</a></li>
-                                        
-                        <li><a href="#locations">LOCATIONS</a></li>
-                                        
-                        <li><a href="#gallery">GALLERY</a></li>
-                                        
-                        <li><a href="#reviews">REVIEWS</a></li>
-                                        
-                        <li><a href="#contact">CONTACT</a></li>
-                                    
-                    </ul>
-                
-                </nav>
-
-            </div>
-                
-        </div>
-
-    </header>
-         
-        <section>   
-            
-            <div id="top-section"></div> 
-
-            <div class="main-image">
-                
-                <img src="img/greenbeans-image.png" alt="greenbeans image"/></div>
-            
-            <div id="middle-section">
-
+    <div class="container">
+        <header>
+            <h1><span>rogue</span> pickings</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu/index.html">MENU</a></li>
+                    <li><a href="#locations">LOCATIONS</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>            
+        <!--Image and Title Section-->
+        <section class="top-section">
+            <img src="img/hero-image.png" alt="fresh vegetables image"/>
+            <div class="main-title">
                 <h2>Welcome to our little corner of the Internet!</h2>
-
                 <p>Welcome to Rogue Pickings, the roaming truck bringing you the freshest ingredients and ideas in food. Our team works hard so you can be sure our ingredients are always fresh and picked carefully. Our menu changes every day and is made with you in mind. We can't wait to come to you! Check out our locations to see where you can find us.</p>
-
             </div>
-
-            <div id="bottom-section">
-                
-                <div class="full-width">
-                            
-                    <div class="third-width" id="specials">
-
-                        <h3>TODAY'S SPECIALS</h3>
-
-                        <p>Flaming Hummus and Falafel Salad</p>
-                        
-                        <p>Sizzling Bean Burrito</p>
-            
-                        <p>Green Glove Tamales</p>
-
-                    </div>
-
-                    <div class="third-width" id="reviews">
-
-                        <h3>OUR AWESOME REVIEWS</h3>
-               
-                        <p>"I got so excited about the yumminess of the falafel salad that I am typing this reivew as I inhale my lunch. Yes, it is that good....Service was super friendly and quick. Can't wait to see you again tomorrow Rogue Pickings!"</p>
-            
-                    </div>
-
-                    <div class="third-width" id="contact">
-
-                        <h3>CONTACT US</h3>
-
-                        <p>1001 Potrero Avenue<br>San Francisco, CA 94110<br>(415) 206-8000</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
         </section>
 
-    <footer>
-
-        <h2>POWERED BY LOTS OF <span>fresh</span> INGREDIENTS</h2>
-        
-    </footer>
-    
+        <section class="bottom-section">
+            <!--Menu Section-->                
+            <div class="section-one">
+                <h3>TODAY'S SPECIALS</h3>
+                <ul class="menu">
+                    <li>Flaming Hummus and Falafel Salad</li>
+                    <li>Sizzling Bean Burrito</li>
+                    <li>Green Glove Tamales</li>
+                </ul>
+            </div>
+            <!--Reveiw Section-->
+            <div class="section-two">
+                <h3>OUR AWESOME REVIEWS</h3>
+                <p>"I got so excited about the yumminess of the falafel salad that I am typing this reivew as I inhale my lunch. Yes, it is that good....Service was super friendly and quick. Can't wait to see you again tomorrow Rogue Pickings!"</p>
+            </div>
+            <!--Contact Section-->
+            <div class="section-three">
+                <h3>CONTACT US</h3>
+                <p>1001 Potrero Avenue<br>San Francisco, CA 94110<br>(415) 206-8000</p>
+            </div>
+        </section>
+        <!--Footer Section-->
+        <footer>
+            <h4>POWERED BY LOTS OF <span>fresh</span> INGREDIENTS</h4>
+        </footer>
+    </div>
 </body>
 </html>
